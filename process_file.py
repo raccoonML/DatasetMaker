@@ -79,7 +79,7 @@ if __name__ == "__main__":
         "Path to the audio file.")
     parser.add_argument("-d", "--distance", type=float, default=0.5, help=\
         "Max distance for a segment to be classified as an existing speaker. Must be positive. "
-        "Higher values cause dissimilar segments to be recognized as the same speaker. "
+        "Higher values cause dissimilar segments to be recognized as the same speaker. ")
     parser.add_argument("--duration", type=float, default=2.0, help=\
         "Min duration for audio segments, anything shorter than this is discarded.")
     parser.add_argument("-m", "--min_count", type=int, default=5, help=\
